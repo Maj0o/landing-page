@@ -6,8 +6,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-color: #1a237e;
-    height: 50vh;
+    background: #12005e;
+    height: 33em;
 }
 
 
@@ -35,29 +35,36 @@ li {
     font-weight: bold;
     font-size: 48px;
     color: #F9FAF8;
-    margin-top: 2em;
 }
 
 .subtext {
     font-size: 18px;
-    color: #e5E7EB
+    color: #e5E7EB;
 }
 
 .content {
+    margin-top: 2em;
+    padding-bottom: 20em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-left: 9em;
 }
 
 .content-left {
-    width: 25rem;
+    width: 30rem;
 }
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .space-image {
     height: 10rem;
     width: 25rem;
-    margin-left: 10em;
+    margin-left: 15em;
 }
 
 .sign-up {
@@ -70,4 +77,33 @@ li {
 
 .sign-up:hover {
     color: #283593;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background: #534bae;
+}
+
+.section img {
+    height: 20vh;
+    width: 25vh;
+    padding: 2em;
+    border: 10px, red;
+}
+
+.section p {
+    color: white;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
