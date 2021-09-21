@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -35,11 +41,16 @@ li {
     font-weight: bold;
     font-size: 48px;
     color: #F9FAF8;
+
 }
 
 .subtext {
     font-size: 18px;
     color: #e5E7EB;
+}
+
+.content h1 {
+    color: white;
 }
 
 .content {
@@ -62,7 +73,7 @@ li {
 
 
 .space-image {
-    height: 10rem;
+    height: auto;
     width: 25rem;
     margin-left: 15em;
 }
@@ -76,7 +87,7 @@ li {
 }
 
 .sign-up:hover {
-    color: #283593;
+    color: #536dfe;
 }
 
 .section {
@@ -88,10 +99,9 @@ li {
 }
 
 .section img {
-    height: 20vh;
+    height: 25vh;
     width: 25vh;
     padding: 2em;
-    border: 10px, red;
 }
 
 .section p {
