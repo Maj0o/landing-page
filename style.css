@@ -13,9 +13,8 @@ header {
     display: flex;
     flex-direction: column;
     background: #12005e;
-    height: 33em;
+    height: 30em;
 }
-
 
 .navbar {
     display: flex;
@@ -110,6 +109,23 @@ li {
     padding: 1em;
 }
 
+
+
+
+
 .section p {
     color: white;
+}
+
+.testimonials {
+    display: flex;
+    background-color: #000051;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.blockquote {
+    color: white;
+    padding: 15vh;
 }
