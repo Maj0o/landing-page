@@ -109,23 +109,30 @@ li {
     padding: 1em;
 }
 
-
-
-
-
 .section p {
     color: white;
 }
 
 .testimonials {
     display: flex;
+    justify-content: center;
     background-color: #000051;
-    justify-content: space-around;
-    align-items: center;
-    height: 15vh;
 }
 
-.blockquote {
+.quote {
     color: white;
-    padding: 15vh;
+    margin-left: 5vh;
+}
+
+.testimonials h3 {
+    color: white;
+}
+
+figcaption {
+    color: white;
+    padding: 0rem 30rem;
+}
+
+.banner {
+    display: flex;
 }
