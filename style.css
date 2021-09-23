@@ -104,9 +104,8 @@ li {
 }
 
 .section img {
-    height: 30vh;
-    width: 35vh;
-    padding: 1em;
+    height: 25vh;
+    width: 30vh;
 }
 
 .section p {
@@ -115,13 +114,13 @@ li {
 
 .testimonials {
     display: flex;
-    justify-content: center;
     background-color: #000051;
 }
 
 .quote {
     color: white;
-    margin-left: 5vh;
+    height: 8vh;
+    margin-left: 35vh;
 }
 
 .testimonials h3 {
@@ -130,9 +129,32 @@ li {
 
 figcaption {
     color: white;
-    padding: 0rem 30rem;
+    padding: 0 70vh;
 }
 
 .banner {
+    background-color: #311b92;
+    height: 25vh;
+}
+
+.banner-container {
+    border: #311b92 solid;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-text {
+    color: white;
+    font-size: 24px;
+}
+
+.subscribe {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: white;
+    background-color: #6746c3;
+
 }
