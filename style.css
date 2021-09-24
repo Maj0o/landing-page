@@ -9,6 +9,12 @@ body {
     font-weight: bold;
 }
 
+.rocket_logo {
+    width: 35vh;
+    height: 30vh;
+    padding-top: 5vh;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -49,11 +55,10 @@ li {
 }
 
 .content {
-    margin-top: 2em;
-    padding-bottom: 20em;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 12vh;
+
 }
 
 .content-left {
@@ -64,13 +69,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-.space-image {
-    height: auto;
-    width: 25rem;
-    margin-left: 15em;
 }
 
 .sign-up {
@@ -90,7 +88,7 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    height: 50vh;
+    height: 55vh;
     background: #534bae;
 }
 
@@ -119,7 +117,7 @@ li {
 
 .quote {
     color: white;
-    height: 8vh;
+    height: 12vh;
     margin-left: 35vh;
 }
 
@@ -129,12 +127,15 @@ li {
 
 figcaption {
     color: white;
-    padding: 0 70vh;
+    margin-bottom: 10vh;
+    margin-left: 90vh;
 }
 
 .banner {
     background-color: #311b92;
-    height: 25vh;
+    height: 35vh;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .banner-container {
@@ -142,7 +143,6 @@ figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .banner-text {
@@ -156,5 +156,8 @@ figcaption {
     border-radius: 0.5em;
     color: white;
     background-color: #6746c3;
+}
 
+.subscribe:active {
+    color: #6746c3;
 }
